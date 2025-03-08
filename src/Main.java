@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -17,6 +19,14 @@ public class Main {
         System.out.println("O salario do funcionario é: " + empresa.valorSalarioFuncionario);
 
         Funcionario funcionario = new Funcionario();
+
+        // Testando nova branch
+        EmpresaSetor empresaSetor = new EmpresaSetor();
+
+        System.out.println(empresaSetor.nomeSetorFinanca);
+        System.out.println(empresaSetor.nomeSetorJuridico);
+        System.out.println(empresaSetor.nomeSetorRh);
+        
 
 //         double teste1 = 99.0; // maior espaço de memoria
 //         float teste2 = 99.0F;
